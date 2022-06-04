@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System;
 using System.Collections.Generic;
@@ -59,9 +60,15 @@ namespace WebApplication1
     public class DataReader : IDataReader
     {
         private readonly string _filePath;
-        public DataReader(string filePath)
+        private const string ConstDataPathConfig = "DataPath";
+        public DataReader(IConfiguration config)
         {
-            this._filePath = filePath;
+            var dataSourceJsonPath = config[ConstDataPathConfig];
+            if (string.IsNullOrEmpty(dataSourceJsonPath))
+            {
+                throw new ArgumentNullException(nameof(dataSourceJsonPath));
+            }
+            this._filePath = dataSourceJsonPath;
         }
         public IEnumerable<ICustomer> GetAllCustomers()
         {

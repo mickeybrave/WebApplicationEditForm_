@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rqXviSW/v7nmPLVVwjTZUskPsSqJ73LzA2xciY5AubLxzHIVUXwRQfVp5zvwkIGxjtfxmTuuamyTcrJ9UYfR0A==",
+  "dgSpecHash": "7n6Gr62TvjOxJ+gx5kqIR+KlzdFEy1i0OoCswz1mVhMCHrH9lfG6c/nVtuc5fMspwHgygeRKLqdAzwC4evk6MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michael.Braverman\\source\\repos\\WebApplicationEditForm\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\source\\MB\\WebAppEditForm\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Michael.Braverman\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
-    "C:\\Users\\Michael.Braverman\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\brave\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
+    "C:\\Users\\brave\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

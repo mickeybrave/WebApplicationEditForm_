@@ -70,19 +70,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michael.Braverman\\.nuget\\packages\\": {}
+    "C:\\Users\\brave\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Michael.Braverman\\source\\repos\\WebApplicationEditForm\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\source\\MB\\WebAppEditForm\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\Michael.Braverman\\source\\repos\\WebApplicationEditForm\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\Michael.Braverman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Michael.Braverman\\source\\repos\\WebApplicationEditForm\\WebApplication1\\obj\\",
+      "projectPath": "C:\\source\\MB\\WebAppEditForm\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\brave\\.nuget\\packages\\",
+      "outputPath": "C:\\source\\MB\\WebAppEditForm\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Michael.Braverman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brave\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -90,7 +90,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://tourismholdinglimited.jfrog.io/artifactory/api/nuget/nuget-cosmos-virtual": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -135,7 +136,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

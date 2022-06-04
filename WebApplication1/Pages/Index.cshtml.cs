@@ -13,11 +13,11 @@ namespace WebApplication1.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private readonly IDataReader _dataReader;
-        public IndexModel(ILogger<IndexModel> logger)
+
+        public IndexModel(ILogger<IndexModel> logger, IDataReader dataReader)
         {
             _logger = logger;
-            _dataReader = new DataReader("MOCK_DATA.json");
-
+            _dataReader = dataReader;
         }
 
         [BindProperty]

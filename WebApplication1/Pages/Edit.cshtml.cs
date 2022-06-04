@@ -13,10 +13,10 @@ namespace WebApplication1.Pages
         private readonly IDataReader _dataReader;
         private readonly ILogger<IndexModel> _logger;
 
-        public EditModel(ILogger<IndexModel> logger)
+        public EditModel(ILogger<IndexModel> logger, IDataReader dataReader)
         {
             _logger = logger;
-            _dataReader = new DataReader("MOCK_DATA.json");
+            _dataReader = dataReader;
         }
 
 
